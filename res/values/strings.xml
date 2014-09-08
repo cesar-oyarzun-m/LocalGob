@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bristol Township</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+     <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+	<string-array name="slide_menu_array">
+        <item>News &amp; Events</item>
+        <item>Tell Us!</item>
+        <item>My Submissions</item>
+        <item>Department Info</item>
+         <item>Public Safety</item>
+    </string-array>
+    <string-array name="crime_type_array">
+        <item>Assault &amp; Battery </item>
+        <item>Bulgary</item>
+        <item>Bolo</item>
+        <item>Drug Crime</item>
+        <item>Homicide</item>
+         <item>Robbery</item>
+         <item>Stolen Vehicle</item>
+    </string-array>
+    <string name="all_segment">ALL</string>
+    <string name="news_segment">NEWS</string>
+    <string name="events_segment">EVENTS</string>
+    <string name="report_closed">Report Closed</string>
+    <string name="report_open">Report Open</string>
+    <string name="police">Police</string>
+    <string name="streets">Streets</string>
+    <string name="others">Others</string>
+    <string name="crime_type">Crime Type</string>
+    <string name="bulgary">Bulgary</string>
+    <string name="add_location">Add Location</string>
+    <string name="comments">Comments</string>
+    <string name="report_anonymously">Report Anonymously</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="crime_tip">Crime Tip</string>
+    <string name="tell_us">Tell Us!</string>
+    <string name="enter_first_name">Enter first name...</string>
+    <string name="enter_street_address">Enter Street Address..</string>
+    <string name="add_aditional_comments">Add aditional comments..</string>
+    <string name="enter_last_name">Enter last name...</string>
+    <string name="enter_your_email_address">Enter your email address...</string>
+    <string name="current_location">Current Location</string>
+    <string name="gps_disabled">Unabled to get current location!</string>
+    <string name="police_blotter">Police Blotter</string>
+    <string name="public_safety">Public Safety</string>
+    <string name="suspicious_activity">Suspicious Activity</string>
+    <string name="report_pot_hole">Report Pot Hole</string>
+    <string name="report_traffic_light_out">Report Traffic Light Out</string>
+    <string name="report_road_kill">Report Road Kill</string>
+    <string name="report_graffiti">Report Graffiti</string>
+    <string name="report_neighbordhood_nuisances">Report Neighbordhood Nuisances</string>
+    <string name="report_other_issues">Report Other Issues</string>
+    <string name="refresh">Refresh</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="choose_existing_photo">Choose Existing Photo</string>
+    <string name="remove_photo">Remove Photo</string>
+    <string name="submit">Submit</string>
+    <string name="add_photo_optional">Add Photo (Optional)</string>
+</resources>

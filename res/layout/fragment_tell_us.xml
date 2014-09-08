@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:targetApi="14" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/grey"
+        android:gravity="fill_vertical"
+        android:minHeight="45dp"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:text="@string/police"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        android:textColor="#4b4b4b"
+        android:textSize="16sp" />
+
+    <ListView
+        android:id="@+id/listPolice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/grey"
+        android:dividerHeight="1dp" >
+    </ListView>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/grey"
+        android:gravity="fill_vertical"
+        android:minHeight="45dp"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:text="@string/streets"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        android:textColor="#4b4b4b"
+        android:textSize="16sp" />
+
+    <ListView
+        android:id="@+id/listStreet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/grey"
+        android:dividerHeight="1dp" >
+    </ListView>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/grey"
+        android:gravity="fill_vertical"
+        android:minHeight="45dp"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:text="@string/others"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        android:textColor="#4b4b4b"
+        android:textSize="16sp" />
+
+    <ListView
+        android:id="@+id/listOthers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/grey"
+        android:dividerHeight="1dp" >
+    </ListView>
+
+</LinearLayout>
